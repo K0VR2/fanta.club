@@ -47,7 +47,7 @@ load.Text = "load"
 load.TextColor3 = Color3.fromRGB(255, 255, 255)
 load.TextSize = 14.000
 load.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/deaddigi/pepsi.club/main/v2", true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/K0VR2/fanta.club/main/v2", true))()
 	main.Visible = false
 end)
 
