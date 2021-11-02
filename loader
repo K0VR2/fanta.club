@@ -56,29 +56,29 @@ end)
 local function PRLATDT_fake_script() -- name.LocalScript 
 	local script = Instance.new('LocalScript', name)
 	wait(3)
-	script.Parent.Text = "p epsi.club"
+	script.Parent.Text = "f anta.club"
 	wait(1)
-	script.Parent.Text = "p e psi.club"
+	script.Parent.Text = "f a nta.club"
 	wait(1)
-	script.Parent.Text = "p e p si.club"
+	script.Parent.Text = "f a n ta.club"
 	wait(1)
-	script.Parent.Text = "p e p s i.club"
+	script.Parent.Text = "f a n t a.club"
 	wait(1)
-	script.Parent.Text = "p e p s i .club"
+	script.Parent.Text = "f a n t a .club"
 	wait(1)
-	script.Parent.Text = "p e p s i . club"
+	script.Parent.Text = "f a n t a . club"
 	wait(1)
-	script.Parent.Text = "p e p s i . c lub"
+	script.Parent.Text = "f a n t a . c lub"
 	wait(1)
-	script.Parent.Text = "p e p s i . c l ub"
+	script.Parent.Text = "f a n t a . c l ub"
 	wait(1)
-	script.Parent.Text = "p e p s i . c l u b"
+	script.Parent.Text = "f a n t a . c l u b"
 	wait(1)
-	script.Parent.Text = "$ pepsi.club $"
+	script.Parent.Text = "$ fanta.club $"
 	wait(1)
-	script.Parent.Text = "p e p s i . c l u b"
+	script.Parent.Text = "f a n t a . c l u b"
 	wait(1)
-	script.Parent.Text = "$ pepsi.club $"
+	script.Parent.Text = "$ fanta.club $"
 end
 coroutine.wrap(PRLATDT_fake_script)()
 local function IPHCOT_fake_script() -- welcome.LocalScript 
@@ -86,6 +86,10 @@ local function IPHCOT_fake_script() -- welcome.LocalScript
 
 	local plr = game.Players.LocalPlayer
 	
-	script.Parent.Text = "welcome, "..plr.Name.."."
+	script.Parent.Text = "welcome, K0VR2."
+	
+	script.Parent.Text = "Days Remaining: Lifetime."
+	
+	script.Parent.Text = "Sub Type: Beta/Alpha
 end
 coroutine.wrap(IPHCOT_fake_script)()
