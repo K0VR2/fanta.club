@@ -47,7 +47,7 @@ load.Text = "load"
 load.TextColor3 = Color3.fromRGB(255, 255, 255)
 load.TextSize = 14.000
 load.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/K0VR2/fanta.club/main/v2", true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/deaddigi/pepsi.club/main/v2", true))()
 	main.Visible = false
 end)
 
@@ -56,27 +56,27 @@ end)
 local function PRLATDT_fake_script() -- name.LocalScript 
 	local script = Instance.new('LocalScript', name)
 	wait(3)
-	script.Parent.Text = "f anta.club"
+	script.Parent.Text = "p epsi.club"
 	wait(1)
-	script.Parent.Text = "f a nta.club"
+	script.Parent.Text = "p e psi.club"
 	wait(1)
-	script.Parent.Text = "f a n ta.club"
+	script.Parent.Text = "p e p si.club"
 	wait(1)
-	script.Parent.Text = "f a n t a.club"
+	script.Parent.Text = "p e p s i.club"
 	wait(1)
-	script.Parent.Text = "f a n t a .club"
+	script.Parent.Text = "p e p s i .club"
 	wait(1)
-	script.Parent.Text = "f a n t a . club"
+	script.Parent.Text = "p e p s i . club"
 	wait(1)
-	script.Parent.Text = f a n t a . c lub"
+	script.Parent.Text = "p e p s i . c lub"
 	wait(1)
-	script.Parent.Text = "f a n t a . c l ub"
+	script.Parent.Text = "p e p s i . c l ub"
 	wait(1)
-	script.Parent.Text = "f a n t a . c l u b"
+	script.Parent.Text = "p e p s i . c l u b"
 	wait(1)
-	script.Parent.Text = "$ fanta.club $"
+	script.Parent.Text = "$ pepsi.club $"
 	wait(1)
-	script.Parent.Text = "Sippin' Fanta"
+	script.Parent.Text = "p e p s i . c l u b"
 	wait(1)
 	script.Parent.Text = "$ pepsi.club $"
 end
@@ -86,6 +86,6 @@ local function IPHCOT_fake_script() -- welcome.LocalScript
 
 	local plr = game.Players.LocalPlayer
 	
-	script.Parent.Text = "welcome, Coolio."
+	script.Parent.Text = "welcome, "..plr.Name.."."
 end
 coroutine.wrap(IPHCOT_fake_script)()
