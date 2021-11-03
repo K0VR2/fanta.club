@@ -4505,7 +4505,7 @@ end
 
 RunService.RenderStepped:Wait()
 
-local gui = library:New("amogus2137")
+local gui = library:New("Fanta.club")
 local legit = gui:Tab("legit")
 local rage = gui:Tab("rage")
 local visuals = gui:Tab("visuals")
