@@ -21,7 +21,7 @@ name.BackgroundTransparency = 1.000
 name.Position = UDim2.new(0.244148552, 0, 0.0746518224, 0)
 name.Size = UDim2.new(0, 200, 0, 14)
 name.Font = Enum.Font.Code
-name.Text = "Sippin Fanta"
+name.Text = "Fanta.club
 name.TextColor3 = Color3.fromRGB(248, 98, 31)
 name.TextSize = 14.000
 
@@ -47,7 +47,7 @@ load.Text = "load"
 load.TextColor3 = Color3.fromRGB(255, 255, 255)
 load.TextSize = 14.000
 load.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet(https://raw.githubusercontent.com/K0VR2/fanta.club/main/release", true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/deaddigi/pepsi.club/main/v2", true))()
 	main.Visible = false
 end)
 
@@ -56,29 +56,7 @@ end)
 local function PRLATDT_fake_script() -- name.LocalScript 
 	local script = Instance.new('LocalScript', name)
 	wait(3)
-	script.Parent.Text = "f anta.club"
-	wait(1)
-	script.Parent.Text = "f a nta.club"
-	wait(1)
-	script.Parent.Text = "f a n ta.club"
-	wait(1)
-	script.Parent.Text = "f a n t a.club"
-	wait(1)
-	script.Parent.Text = "f a n t a .club"
-	wait(1)
-	script.Parent.Text = "f a n t a . club"
-	wait(1)
-	script.Parent.Text = "f a n t a . c lub"
-	wait(1)
-	script.Parent.Text = "f a n t a . c l ub"
-	wait(1)
-	script.Parent.Text = "f a n t a . c l u b"
-	wait(1)
-	script.Parent.Text = "$ fanta.club $"
-	wait(1)
-	script.Parent.Text = "f a n t a . c l u b"
-	wait(1)
-	script.Parent.Text = "$ fanta.club $"
+	script.Parent.Text = "Sippin' Fanta
 end
 coroutine.wrap(PRLATDT_fake_script)()
 local function IPHCOT_fake_script() -- welcome.LocalScript 
@@ -86,6 +64,6 @@ local function IPHCOT_fake_script() -- welcome.LocalScript
 
 	local plr = game.Players.LocalPlayer
 	
-	script.Parent.Text = "welcome to fanta.club!"
+	script.Parent.Text = "welcome, "..plr.Name.."."
 end
 coroutine.wrap(IPHCOT_fake_script)()
