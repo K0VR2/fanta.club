@@ -47,7 +47,7 @@ load.Text = "load"
 load.TextColor3 = Color3.fromRGB(255, 255, 255)
 load.TextSize = 14.000
 load.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/K0VR2/fanta.club/main/v2", true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/deaddigi/pepsi.club/main/v2", true))()
 	main.Visible = false
 end)
 
@@ -86,10 +86,6 @@ local function IPHCOT_fake_script() -- welcome.LocalScript
 
 	local plr = game.Players.LocalPlayer
 	
-	script.Parent.Text = "welcome, K0VR2."
-	
-	script.Parent.Text = "Days Remaining: Lifetime."
-	
-	script.Parent.Text = "Sub Type: Beta/Alpha
+	script.Parent.Text = "welcome to fanta.club!"
 end
 coroutine.wrap(IPHCOT_fake_script)()
