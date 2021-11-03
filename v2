@@ -8,8 +8,8 @@ local ConfigLoad = Signal.new("ConfigLoad")
 local txt = game:GetService("TextService")
 local TweenService = game:GetService("TweenService")
 function library:Tween(...) TweenService:Create(...):Play() end
-local cfglocation = "aristoiscfg/"
-makefolder("aristoiscfg")
+local cfglocation = "fantacfg/"
+makefolder("fantacfg")
 function rgbtotbl(rgb)
 	return {R = rgb.R, G = rgb.G, B = rgb.B}
 end
@@ -57,20 +57,20 @@ end
 function library:New(name)
 	local menu = {}
 
-	local Aristois = Instance.new("ScreenGui")
+	local Fanta = Instance.new("ScreenGui")
 	local Menu = Instance.new("ImageLabel")
 	local TextLabel = Instance.new("TextLabel")
 	local TabButtons = Instance.new("Frame")
 	local UIListLayout = Instance.new("UIListLayout")
 	local Tabs = Instance.new("Frame")
 
-	Aristois.Name = "Aristois"
-	Aristois.ResetOnSpawn = false
-	Aristois.ZIndexBehavior = "Global"
-	Aristois.DisplayOrder = 420133769
+	Fanta.Name = "Fanta"
+	Fanta.ResetOnSpawn = false
+	Fanta.ZIndexBehavior = "Global"
+	Fanta.DisplayOrder = 420133769
 
 	local UIScale = Instance.new("UIScale")
-	UIScale.Parent = Aristois
+	UIScale.Parent = Fanta
 
 	function menu:SetScale(scale)
 		UIScale.Scale = scale
@@ -80,11 +80,11 @@ function library:New(name)
 	but.Modal = true
 	but.Text = ""
 	but.BackgroundTransparency = 1
-	but.Parent = Aristois
+	but.Parent = Fanta
 
 	local cursor = Instance.new("ImageLabel")
     cursor.Name = "cursor"
-    cursor.Parent = Aristois
+    cursor.Parent = Fanta
     cursor.BackgroundTransparency = 1
     cursor.Size = UDim2.new(0,17,0,17)
     cursor.Image = "rbxassetid://518398610"
@@ -96,12 +96,12 @@ function library:New(name)
     local Mouse = LocalPlayer:GetMouse()
 
     game:GetService("RunService").RenderStepped:connect(function()
-        cursor.Visible = Aristois.Enabled
+        cursor.Visible = Fanta.Enabled
         cursor.Position = UDim2.new(0,Mouse.X-3,0,Mouse.Y+1)
     end)
 
 	Menu.Name = "Menu"
-	Menu.Parent = Aristois
+	Menu.Parent = Fanta
 	Menu.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	Menu.Position = UDim2.new(0.5, -300, 0.5, -300)
 	Menu.Size = UDim2.new(0, 600, 0, 600)
@@ -111,8 +111,8 @@ function library:New(name)
 
 	game:GetService("UserInputService").InputBegan:Connect(function(key)
 		if key.KeyCode == Enum.KeyCode.Insert then
-			Aristois.Enabled = not Aristois.Enabled
-			library.uiopen = Aristois.Enabled
+			Fanta.Enabled = not Fanta.Enabled
+			library.uiopen = Fanta.Enabled
 		end
 	end)
 
@@ -4104,7 +4104,7 @@ function library:New(name)
 		return Tab
 	end
 
-	Aristois.Parent = game.CoreGui
+	Fanta.Parent = game.CoreGui
 
 	return menu
 end
@@ -4494,12 +4494,12 @@ for i,v in ipairs(AllWeapons) do
 	end
 end
 
-makefolder("aristoislua")
+makefolder("Fantalua")
 
 local allluas = {}
 
-for _,lua in pairs(listfiles("aristoislua")) do
-	local luaname = string.gsub(lua, "aristoislua\\", "")
+for _,lua in pairs(listfiles("Fantalua")) do
+	local luaname = string.gsub(lua, "Fantalua\\", "")
 	table.insert(allluas, luaname)
 end
 
@@ -4528,7 +4528,7 @@ end
 local luascripts = luas:Sector("lua scripts", "Left")
 luascripts:Element("Scroll", "lua", {options = allluas, Amount = 5})
 luascripts:Element("Button", "load", {}, function()
-	loadstring(readfile("aristoislua\\"..values.luas["lua scripts"].lua.Scroll))()
+	loadstring(readfile("Fantalua\\"..values.luas["lua scripts"].lua.Scroll))()
 end)
 
 local knife = skins:Sector("knife", "Left")
