@@ -5,8 +5,8 @@ for i,v in pairs(game.ReplicatedStorage.Viewmodels:GetChildren()) do
     end
 end
 ----------------------------------------------------------------------------------------
-if game.CoreGui:FindFirstChild("fanta.club") then
-    game.CoreGui["fanta.club"]:Destroy()
+if game.CoreGui:FindFirstChild("pepsi.club") thenA
+    game.CoreGui["pepsi.club"]:Destroy()
 end
 local cbClient = getsenv(game.Players.LocalPlayer.PlayerGui.Client)
 local a = game:GetService("UserInputService")
@@ -27,7 +27,7 @@ function l:CreateUI()
         makefolder("pepsi")
     end
     local m = Instance.new("ScreenGui")
-    m.Name = "fanta.club"
+    m.Name = "pepsi.club"
     local n = Instance.new("Frame")
     n.Name = "main"
     n.Size = UDim2.new(0, 320, 0, 365)
@@ -62,7 +62,7 @@ function l:CreateUI()
     q.Parent = n
     local r = Instance.new("TextLabel")
     r.Name = "name"
-    r.Text = "fanta.club"
+    r.Text = "pepsi.club"
     r.TextColor3 = Color3.new(1, 1, 1)
     r.Size = UDim2.new(1, 0, 0, 20)
     r.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
@@ -1463,7 +1463,7 @@ a.InputBegan:connect(function(w)
                                     aQ.Color = Color3.new(0.2, 0.9, 0.2)
                                     wait()
                                     game.StarterGui:SetCore("SendNotification", {
-                                    Title = "fanta.club";
+                                    Title = "pepsi.club";
                                     Text = "edgebugged !";
                                     Icon = "rbxassetid://6910419016";
                                     Duration = 3;
@@ -1972,7 +1972,7 @@ aE:CreateToggle("Watermark", function(K)
         Text.Size = UDim2.new(1, 0, 1, 0)
         Text.ZIndex = 4
         Text.Font = Enum.Font.RobotoMono
-        Text.Text = "fanta.club | 00:00:00  | Oct. 17, 2021"
+        Text.Text = "pepsi.club | 00:00:00  | Oct. 17, 2021"
         Text.TextColor3 = Color3.fromRGB(65025, 65025, 65025)
         Text.TextSize = 14.000
         Text.TextStrokeTransparency = 0.000
@@ -2029,7 +2029,7 @@ aE:CreateToggle("Watermark", function(K)
                 if h > 12 then
                     h = h - 12
                 end
-                script.Parent.Text = "fanta.club | " ..h.. ":" ..m.. ":" ..s.. " " ..mo.. " | " ..mon[mont][1].. " " ..d.. ", " ..y
+                script.Parent.Text = "pepsi.club | " ..h.. ":" ..m.. ":" ..s.. " " ..mo.. " | " ..mon[mont][1].. " " ..d.. ", " ..y
             end
         end
 
